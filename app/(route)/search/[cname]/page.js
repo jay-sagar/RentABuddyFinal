@@ -1,6 +1,6 @@
 "use client"
-import CastList from '@/app/_components/CastList';
-import GlobalApi from '@/app/_utils/GlobalApi'
+import CastList from '../../../_components/CastList';
+import GlobalApi from '../../../_utils/GlobalApi'
 import React, { useEffect, useState } from 'react'
 
 function Search({params}) {
