@@ -1,5 +1,5 @@
 "use client"
-import GlobalApi from '@/app/_utils/GlobalApi';
+import GlobalApi from '../../../_utils/GlobalApi';
 import React, { useEffect, useState } from 'react'
 import {
     Command,
@@ -11,7 +11,7 @@ import {
     CommandList,
     CommandSeparator,
     CommandShortcut,
-  } from "@/components/ui/command"
+  } from "../../../../components/ui/command"
 import Link from 'next/link';
 import Image from 'next/image';
 import { usePathname } from 'next/navigation';
