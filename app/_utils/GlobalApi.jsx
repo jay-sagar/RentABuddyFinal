@@ -27,7 +27,6 @@ const getAllPeople = () => axiosClient.get('/casts');
 
 const addCast = (data) => axiosClient.post('/casts', data);
 
-
 export default {
     getCategory,
     getCastList,
